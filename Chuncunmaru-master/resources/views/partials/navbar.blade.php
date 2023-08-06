@@ -14,9 +14,9 @@
               SHOES
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/sepatu/woman">WOMENS</a></li>
+              <li><a class="dropdown-item" href="/shoes/woman/sepatu">WOMENS</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="/sepatu/man">MENS</a></li>
+              <li><a class="dropdown-item" href="/shoes/men/sepatu">MENS</a></li>
             </ul>
           </li>
 
@@ -25,9 +25,9 @@
               CLOTHING
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/baju/woman">WOMENS</a></li>
+              <li><a class="dropdown-item" href="/clothing/woman/baju">WOMENS</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="/baju/man">MENS</a></li>
+              <li><a class="dropdown-item" href="/clothing/men/baju">MENS</a></li>
             </ul>
           </li>
 
@@ -36,9 +36,9 @@
               ACCESSORIES
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/aksesoris/woman">WOMENS</a></li>
+              <li><a class="dropdown-item" href="/accessories/woman/aksesoris">WOMENS</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="/aksesoris/man">MENS</a></li>
+              <li><a class="dropdown-item" href="/accessories/man/aksesoris">MENS</a></li>
             </ul>
           </li>
         </ul>
