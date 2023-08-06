@@ -24,37 +24,37 @@ class BarangController extends Controller
     public function sepatum() {
         $barang = DB::table('barang')->get();
 
-        return view ('sepatu', ['barang' => $barang]);
+        return view ('man.sepatu', ['barang' => $barang]);
     }
 
 
     public function sepatuw() {
         $barang = DB::table('barang')->get();
 
-        return view ('sepatu', ['barang' => $barang]);
+        return view ('woman.sepatu', ['barang' => $barang]);
     }
 
     public function accesorissm() {
         $barang = DB::table('barang')->get();
 
-        return view ('aksesoris', ['barang' => $barang]);
+        return view ('man.aksesoris', ['barang' => $barang]);
     }
 
     public function accesorissw() {
         $barang = DB::table('barang')->get();
 
-        return view ('aksesoris', ['barang' => $barang]);
+        return view ('woman.aksesoris', ['barang' => $barang]);
     }
 
     public function clothesm() {
         $barang = DB::table('barang')->get();
 
-        return view ('baju', ['barang' => $barang]);
+        return view ('man.baju', ['barang' => $barang]);
     }
     public function clothesw() {
         $barang = DB::table('barang')->get();
 
-        return view ('baju', ['barang' => $barang]);
+        return view ('woman.baju', ['barang' => $barang]);
     }
 
     /**

@@ -38,7 +38,7 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="/accessories/woman/aksesoris">WOMENS</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="/accessories/man/aksesoris">MENS</a></li>
+              <li><a class="dropdown-item" href="/accessories/men/aksesoris">MENS</a></li>
             </ul>
           </li>
         </ul>
