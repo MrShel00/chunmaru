@@ -19,31 +19,31 @@ Route::get('/', [BarangController::class, 'index']);
 
 Route::prefix('shoes')->group(function () {
     Route::prefix('woman')->group(function () {
-        Route::get('/shoes/woman/sepatu', [BarangController::class, 'sepatuw']);
+        Route::get('/', [BarangController::class, 'womanShoes']);
     });
 
     Route::prefix('men')->group(function () {
-        Route::get('/shoes/men/sepatu', [BarangController::class, 'septaum']);
+        Route::get('/', [BarangController::class, 'manShoes']);
     });
 });
 
 Route::prefix('clothing')->group(function () {
     Route::prefix('woman')->group(function () {
-        Route::get('/clothing/woman/baju', [BarangController::class, 'clothesw']);
+        Route::get('/', [BarangController::class, 'womanClothes']);
     });
 
     Route::prefix('men')->group(function () {
-        Route::get('/clothing/men/baju', [BarangController::class, 'clothesm']);
+        Route::get('/', [BarangController::class, 'manClothes']);
     });
 });
 
 Route::prefix('aksesoris')->group(function () {
     Route::prefix('woman')->group(function () {
-        Route::get('/accessories/woman/aksesoris', [BarangController::class, 'accesorissw']);
+        Route::get('/', [BarangController::class, 'womanAccesoriss']);
     });
 
     Route::prefix('men')->group(function () {
-        Route::get('/accessories/men/aksesoris', [BarangController::class, 'accesorissm']);
+        Route::get('/', [BarangController::class, 'manAccesoriss']);
     });
 });
 

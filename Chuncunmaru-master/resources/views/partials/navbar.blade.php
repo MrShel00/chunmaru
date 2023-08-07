@@ -1,47 +1,92 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<div class="p-3 text-center bg-white border-bottom">
     <div class="container">
-      <a class="navbar-brand" href="/">Chunchunmaru</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <div class="row gy-3">
+        <!-- Left elements -->
+        <div class="col-lg-2 col-sm-4 col-4">
+          <a href="/index.html" class="float-start">
+            <h4>Chuncunmaru</h4>
+          </a>
+        </div>
+        <!-- Left elements -->
+
+        <!-- Right elements -->
+        <div class="col-lg-5 col-md-12 col-12">
+          <div class="input-group float-center">
+            <div class="form-outline">
+              <input type="search" id="form1" class="form-control" />
+              <label class="form-label" for="form1">Search</label>
+            </div>
+            <button type="button" class="btn btn-primary shadow-0">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+        </div>
+        <!-- Right elements -->
+      </div>
+    </div>
+  </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <!-- Container wrapper -->
+    <div class="container justify-content-center justify-content-md-between">
+      <!-- Toggle button -->
+      <button
+              class="navbar-toggler border py-2 text-dark"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarLeftAlignExample"
+              aria-controls="navbarLeftAlignExample"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              >
+        <i class="fas fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+        <!-- Left links -->
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active"  href="/">Product</a>
+            <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Products</a>
+          </li>
+          <!-- Navbar dropdown -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/shoe" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              SHOES
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+              Clothing
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/shoes/woman/sepatu">WOMENS</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="/shoes/men/sepatu">MENS</a></li>
+            <!-- Dropdown menu -->
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="#">Man</a>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item" href="#">Woman</a>
+              </li>
             </ul>
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/clothing" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              CLOTHING
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+              Shoes
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/clothing/woman/baju">WOMENS</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="/clothing/men/baju">MENS</a></li>
-            </ul>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="/accessories" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              ACCESSORIES
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="/accessories/woman/aksesoris">WOMENS</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="/accessories/men/aksesoris">MENS</a></li>
+            <!-- Dropdown menu -->
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="#">Man</a>
+              </li>
+              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <a class="dropdown-item" href="#">Woman</a>
+              </li>
             </ul>
           </li>
         </ul>
+        <!-- Left links -->
       </div>
     </div>
+    <!-- Container wrapper -->
   </nav>
+
