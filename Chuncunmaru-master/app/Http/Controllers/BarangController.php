@@ -64,6 +64,12 @@ class BarangController extends Controller
         return view('detail.view', ['barang' => $barang]);
     }
 
+    public function product() {
+        $barang = DB::table('barang') -> get();
+
+        return view ('product', ['barang' => $barang]);
+    }
+
     /**
      * Show the form for creating a new resource.
      *

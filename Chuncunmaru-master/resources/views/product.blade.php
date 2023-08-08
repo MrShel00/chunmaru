@@ -1,10 +1,58 @@
-
 @extends('layouts.main')
 
 @section('container')
 <section class="">
     <div class="container">
-      <div class="row ml-5 flex justify-content-center">
+      <div class="row">
+        <!-- sidebar -->
+        <div class="col-lg-3 mt-5">
+          <!-- Toggle button -->
+          <button
+                  class="btn btn-outline-secondary mb-3 w-100 d-lg-none"
+                  type="button"
+                  data-mdb-toggle="collapse"
+                  data-mdb-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                  >
+            <span>Show filter</span>
+          </button>
+          <!-- Collapsible wrapper -->
+          <div class="collapse card d-lg-block mb-5" id="navbarSupportedContent">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                          class="accordion-button text-dark bg-light"
+                          type="button"
+                          data-mdb-toggle="collapse"
+                          data-mdb-target="#panelsStayOpen-collapseOne"
+                          aria-expanded="true"
+                          aria-controls="panelsStayOpen-collapseOne"
+                          >
+                    Related items
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                  <div class="accordion-body">
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="text-dark">Electronics </a></li>
+                      <li><a href="#" class="text-dark">Home items </a></li>
+                      <li><a href="#" class="text-dark">Books, Magazines </a></li>
+                      <li><a href="#" class="text-dark">Men's clothing </a></li>
+                      <li><a href="#" class="text-dark">Interiors items </a></li>
+                      <li><a href="#" class="text-dark">Underwears </a></li>
+                      <li><a href="#" class="text-dark">Shoes for men </a></li>
+                      <li><a href="#" class="text-dark">Accessories </a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- sidebar -->
         <!-- content -->
         <div class="col-lg-9 mt-3">
           <header class="d-sm-flex align-items-center border-bottom mb-4 pb-3">
@@ -67,5 +115,4 @@
       </div>
     </div>
   </section>
-
 @endsection

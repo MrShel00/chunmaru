@@ -3,7 +3,7 @@
       <div class="row gy-3">
         <!-- Left elements -->
         <div class="col-lg-2 col-sm-4 col-4">
-          <a href="/index.html" class="float-start">
+          <a href="/" class="float-start">
             <h4>Chuncunmaru</h4>
           </a>
         </div>
@@ -49,7 +49,7 @@
             <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Products</a>
+            <a class="nav-link text-dark" href="/product">Products</a>
           </li>
           <!-- Navbar dropdown -->
           <li class="nav-item dropdown">
@@ -59,11 +59,11 @@
             <!-- Dropdown menu -->
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
-                <a class="dropdown-item" href="#">Man</a>
+                <a class="dropdown-item" href="/clothing/men">Man</a>
               </li>
               <li><hr class="dropdown-divider" /></li>
               <li>
-                <a class="dropdown-item" href="#">Woman</a>
+                <a class="dropdown-item" href="/clothing/woman">Woman</a>
               </li>
             </ul>
           </li>
@@ -75,11 +75,11 @@
             <!-- Dropdown menu -->
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
-                <a class="dropdown-item" href="#">Man</a>
+                <a class="dropdown-item" href="/shoes/men">Man</a>
               </li>
               <li><hr class="dropdown-divider" /></li>
               <li>
-                <a class="dropdown-item" href="#">Woman</a>
+                <a class="dropdown-item" href="/shoes/woman">Woman</a>
               </li>
             </ul>
           </li>

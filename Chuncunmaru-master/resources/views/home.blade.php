@@ -2,7 +2,6 @@
 
 @section('container')
 
-<h1>HOME</h1>
 <div class=" text-white py-5" align="center">
     <!-- <img src="./asset/slider2.jpg" alt="" width="1930" > -->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -42,6 +41,40 @@
       <header class="mb-4">
         <h3>New products</h3>
       </header>
+
+      {{-- <div class="collapse card d-lg-block mb-5 mt-5" id="navbarSupportedContent">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                          class="accordion-button text-dark bg-light"
+                          type="button"
+                          data-mdb-toggle="collapse"
+                          data-mdb-target="#panelsStayOpen-collapseOne"
+                          aria-expanded="true"
+                          aria-controls="panelsStayOpen-collapseOne"
+                          >
+                    Related items
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                  <div class="accordion-body">
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="text-dark">Electronics </a></li>
+                      <li><a href="#" class="text-dark">Home items </a></li>
+                      <li><a href="#" class="text-dark">Books, Magazines </a></li>
+                      <li><a href="#" class="text-dark">Men's clothing </a></li>
+                      <li><a href="#" class="text-dark">Interiors items </a></li>
+                      <li><a href="#" class="text-dark">Underwears </a></li>
+                      <li><a href="#" class="text-dark">Shoes for men </a></li>
+                      <li><a href="#" class="text-dark">Accessories </a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> --}}
 
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-6 d-flex">
