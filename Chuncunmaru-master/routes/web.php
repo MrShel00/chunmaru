@@ -48,6 +48,7 @@ Route::prefix('aksesoris')->group(function () {
 });
 
 Route::get('/product', [BarangController::class, 'product']);
+Route::get('/detail/index', [BarangController::class, 'detailBarang']);
 
 
 

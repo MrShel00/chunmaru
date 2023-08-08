@@ -11,7 +11,7 @@
               Chuncunmaru
             </a>
             <p class="mt-1 text-white">
-              © 2023 Copyright: MDBootstrap.com
+              © 2023 Copyright: Chunchunmaru
             </p>
           </div>
           <!-- Grid column -->

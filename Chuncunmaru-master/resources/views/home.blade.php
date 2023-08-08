@@ -84,7 +84,7 @@
               <h5 class="card-title">GoPro HERO6 4K Action Camera - Black</h5>
               <!-- <p class="card-text">$790.50</p> -->
               <div class="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
-                <a href="#!" class="btn btn-primary shadow-0 me-1">Detail</a>
+                <a href="/detail/index" class="btn btn-primary shadow-0 me-1">Detail</a>
               </div>
             </div>
           </div>

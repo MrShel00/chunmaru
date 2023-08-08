@@ -58,10 +58,10 @@ class BarangController extends Controller
         return view ('woman.baju', ['barang' => $barang]);
     }
 
-    public function detail() {
+    public function detailBarang() {
         $barang = DB::table('barang') -> get();
 
-        return view('detail.view', ['barang' => $barang]);
+        return view('detail.index', ['barang' => $barang]);
     }
 
     public function product() {
@@ -69,6 +69,8 @@ class BarangController extends Controller
 
         return view ('product', ['barang' => $barang]);
     }
+
+
 
     /**
      * Show the form for creating a new resource.
